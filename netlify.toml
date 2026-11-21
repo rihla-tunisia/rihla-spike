@@ -1,0 +1,8 @@
+# Rihla technical test — throwaway
+[build]
+  command = "npm run ci"   # 1) update the database structure, 2) build the site
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "22"
+  NEXT_TELEMETRY_DISABLED = "1"
